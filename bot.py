@@ -8,7 +8,7 @@ import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = "be4eb814a7bf7b61d6ec7e6466e74af7"
-token = "5914682116:AAHMiVTBI9t28IsCw2va25uQpS4fw1X6BNY"
+token = "5552401509:AAE1zpoP0E72oEMyeNvmIhfCeSFy81CUOH8"
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
@@ -18,7 +18,7 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = "missrose_bot"
+mybot = "Flamesgamebot"
 bot = borg = client
 async def check(channel, uid):
     try:
