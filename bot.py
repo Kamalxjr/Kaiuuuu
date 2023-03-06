@@ -3,12 +3,12 @@
 import os
 os.system("pip install Telethon==1.21.1")
 from telethon import TelegramClient, events, functions, types
-api_id = 22667581
+api_id = "22667581"
 import os, asyncio
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-api_hash = be4eb814a7bf7b61d6ec7e6466e74af7
-token = 5914682116:AAHMiVTBI9t28IsCw2va25uQpS4fw1X6BNY
+api_hash = "be4eb814a7bf7b61d6ec7e6466e74af7"
+token = "5914682116:AAHMiVTBI9t28IsCw2va25uQpS4fw1X6BNY"
 client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
